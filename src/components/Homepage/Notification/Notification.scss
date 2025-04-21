@@ -1,0 +1,31 @@
+.notification-section{
+    .notify-section{
+        display: flex;
+        padding: 10px;
+        border-radius: 10px;
+        align-items: center;
+        background-color: #17177B;
+    }
+    .notify-imgcontent{
+        width: 46px;
+        height: 30px;
+        border-radius: 6px;
+    }
+    .notify-imgsection{
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+    .title-content{
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+        padding-right: 10px;
+        color: #D5DBF5;
+    } 
+    .dismiss-imgcontent{
+        width: 40px;
+        // filter: brightness(0) invert(1);
+        filter: grayscale(100%) brightness(0) invert(50%);
+    }
+}

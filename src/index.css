@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+      .masonry-4-col {
+        column-count: 4;
+        column-gap: 1em;
+      }
+      .masonry-2-col {
+        column-count: 2;
+        column-gap: 1em;
+      }
+      .break-inside {
+        break-inside: avoid;
+      }
+    }
+  }
+@font-face {
+  font-family: 'Manrope';
+  src: url('./assets/fonts/Manrope-Regular.ttf');
+}
+@font-face {
+  font-family: 'Monasans';
+  src: url('./assets/fonts/MonaSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Monasans-bold';
+  src: url('./assets/fonts/MonaSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter_18pt-Regular.ttf');
+}

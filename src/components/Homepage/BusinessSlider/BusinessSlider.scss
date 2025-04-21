@@ -1,0 +1,78 @@
+.businessSlider-section{
+        border-radius: 8px;
+        color: #fff;
+        background-size: cover;
+        background-position: center;
+    .slider-item {
+        position: relative;
+        height: 350px;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    .category-content{
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+        padding: 5px;
+        width: 90px;
+        height: 30px;
+        text-align: center;
+        border-radius: 30px;
+        margin-bottom: 10px;
+        background-color: #DCE041;
+        color: #142D6F;
+    }
+    .title-content{
+        font-family: 'Monasans-bold';
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 28px;
+        padding-bottom: 10px;
+    }
+    .desc-content {
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+        padding-bottom: 6px;
+      
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #C2C2C2;
+        // position: relative;
+        // cursor: pointer;
+      
+        // &:hover::after {
+        //   content: attr(data-full);
+        //   position: absolute;
+        // //   top: -2.5rem;
+        //   left: 0;
+        //   z-index: 10;
+        //   background-color: #222;
+        //   color: #fff;
+        // //   padding: 8px 12px;
+        //   font-size: 12px;
+        //   border-radius: 6px;
+        //   white-space: normal;
+        //   width: 100%;
+        //   height: 100px;
+        //   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        // }
+    }
+    .date-content{
+        font-family: 'Inter';
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 20px;
+        color: #C2C2C2;
+    }
+    .slider-content {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        color: #fff;
+    }    
+}

@@ -1,0 +1,1062 @@
+{
+    "nursingCare" : [
+      {
+        "jobtitle": "Total Request",
+        "count": "135",
+        "labtitle": "Patient",
+        "labcount": "97",
+        "overdue": "Corporate",
+        "dueCount": "07",
+        "labdue": "Homecare",
+        "labdueCount": "03"
+      }
+    ],
+    "nursingPosted" : [
+      {
+        "jobtitle": "Posted",
+        "count": "135",
+        "labtitle": "Nurse Assigned",
+        "labcount": "97",
+        "overdue": "Ongoing",
+        "dueCount": "07",
+        "labdue": "Completed",
+        "labdueCount": "03"
+      }
+    ],
+    "jobRequests" : [
+      {
+        "bookingID": "17059",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Troy Robel",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Mon - 02 Mar",
+        "jobTitle": "Critical care Nurse",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "96780",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Loren Rogahn",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Wed - 04 Mar",
+        "jobTitle": "Helping Nurse",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "54566",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Margarita Buckridge",
+        "contactNo": "7890452378",
+        "serviceType": "Corporate",
+        "requestDate": "Mon, Wed, Fri - 01 Mar to 30 Mar",
+        "jobTitle": "Vitamin D & B 12",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "14569",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Mithra Hospitals",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Thu - 12 Mar",
+        "jobTitle": "Registered Nurse",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "78059",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Dawn Jast",
+        "contactNo": "7890452378",
+        "serviceType": "Home care",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "jobTitle": "Critical care Nurse",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "14059",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Jason Fadel",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Mon - 02 Mar",
+        "jobTitle": "Cancer Screening",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "17679",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Phyllis Wintheiser",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Wed - 04 Mar",
+        "jobTitle": "Vitamin D & B 12",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "18759",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Javier Sauer",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "jobTitle": "Physiotherapist",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "16790",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Joel Schaden",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Thu - 12 Mar",
+        "jobTitle": "Critical care Nurse",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "89059",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Joel Schaden",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "jobTitle": "Helping Nurse",
+        "action": "Reject",
+        "status": "Accept"
+      },
+      {
+        "bookingID": "10959",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Simon Deckow",
+        "contactNo": "68931 43256",
+        "serviceType": "Corporate",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "jobTitle": "Basic Health Checkup",
+        "action": "Reject",
+        "status": "Accept"
+      }
+    ],
+    "jobRejected" : [
+      {
+        "bookingID": "17059",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Troy Robel",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Mon - 02 Mar",
+        "jobTitle": "Critical care Nurse",
+        "action": "Revoke",
+        "request": "2"
+      },
+      {
+        "bookingID": "96780",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Loren Rogahn",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Mon - 02 Mar",
+        "jobTitle": "Helping Nurse",
+        "action": "Revoke",
+        "request": "5"
+      },
+      {
+        "bookingID": "54566",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Margarita Buckridge",
+        "contactNo": "7890452378",
+        "serviceType": "Home careHome care",
+        "requestDate": "Thu - 12 Mar",
+        "jobTitle": "Vitamin D & B 12",
+        "action": "Revoke",
+        "request": "10"
+      },
+      {
+        "bookingID": "14569",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Mithra Hospitals",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Thu - 12 Mar",
+        "jobTitle": "Registered Nurse",
+        "action": "Revoke",
+        "request": "-"
+      },
+      {
+        "bookingID": "78059",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Dawn Jast",
+        "contactNo": "7890452378",
+        "serviceType": "Home care",
+        "requestDate": "Thu - 12 Mar",
+        "jobTitle": "Critical care Nurse",
+        "action": "Revoke",
+        "request": "-"
+      },
+      {
+        "bookingID": "14059",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Jason Fadel",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Thu - 12 Mar",
+        "jobTitle": "Cancer Screening",
+        "action": "Revoke",
+        "request": "-"
+      },
+      {
+        "bookingID": "17679",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Phyllis Wintheiser",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Mon - 02 Mar",
+        "jobTitle": "Vitamin D & B 12",
+        "action": "Revoke",
+        "request": "-"
+      },
+      {
+        "bookingID": "18759",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Javier Sauer",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "jobTitle": "Physiotherapist",
+        "action": "Revoke",
+        "request": "-"
+      },
+      {
+        "bookingID": "16790",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Joel Schaden",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Thu - 12 Mar",
+        "jobTitle": "Critical care Nurse",
+        "action": "Revoke",
+        "request": "5"
+      },
+      {
+        "bookingID": "89059",
+        "requestedDate": "28 Jul, 2024",
+        "customerName": "Joel Schaden",
+        "contactNo": "7890452378",
+        "serviceType": "Patient",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "jobTitle": "Helping Nurse",
+        "action": "Revoke",
+        "request": "-"
+      },
+      {
+        "bookingID": "10959",
+        "requestedDate": "25 Jul, 2024",
+        "customerName": "Simon Deckow",
+        "contactNo": "68931 43256",
+        "serviceType": "Corporate",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "jobTitle": "Basic Health Checkup",
+        "action": "Revoke",
+        "request": "8"
+      }
+    ],
+    "jobPosted" : [
+      {
+        "bookingID": "17059",
+        "customerName": "Troy Robel",
+        "customerType": "Patient",
+        "contactNo": "7890452378",
+        "jobTitle": "Critical care Nurse",
+        "date": "Mon - 02 Mar",
+        "time": "09:00 am - 06:00 pm",
+        "nurseRequest": "2",
+        "action": "Open"
+      },
+      {
+        "bookingID": "96780",
+        "customerName": "Loren Rogahn",
+        "customerType": "Patient",
+        "contactNo": "7890452378",
+        "jobTitle": "Helping Nurse",
+        "date": "Mon - 02 Mar",
+        "time": "09:00 am - 04:00 pm",
+        "nurseRequest": "5",
+        "action": "Open"
+      },
+      {
+        "bookingID": "54566",
+        "customerName": "Margarita Buckridge",
+        "customerType": "Patient",
+        "contactNo": "7890452378",
+        "jobTitle": "Vitamin D & B 12",
+        "date": "Mon, Wed, Fri - 01 Mar to 30 Mar",
+        "time": "09:00 am - 06:00 pm",
+        "nurseRequest": "10",
+        "action": "Open"
+      },
+      {
+        "bookingID": "14569",
+        "customerName": "Mithra Hospitals",
+        "customerType": "Corporate",
+        "contactNo": "7890452378",
+        "jobTitle": "Registered Nurse",
+        "date": "Mon, Wed, Fri - 01 Mar to 30 Marr",
+        "time": "09:00 am - 06:00 pm",
+        "nurseRequest": "-",
+        "action": "Open"
+      },
+      {
+        "bookingID": "78059",
+        "customerName": "Dawn Jast",
+        "customerType": "Home care",
+        "contactNo": "7890452378",
+        "jobTitle": "Critical care Nurse",
+        "date": "Mon - 02 Mar",
+        "time": "10:00 pm - 06:00 am",
+        "nurseRequest": "-",
+        "action": "Fulfilled"
+      },
+      {
+        "bookingID": "14059",
+        "customerName": "Jason Fadel",
+        "customerType": "Patient",
+        "contactNo": "7890452378",
+        "jobTitle": "Cancer Screening",
+        "date": "Mon - 02 Mar",
+        "time": "09:00 am - 06:00 pm",
+        "nurseRequest": "-",
+        "action": "Fulfilled"
+      },
+      {
+        "bookingID": "17679",
+        "customerName": "Phyllis Wintheiser",
+        "customerType": "Patient",
+        "contactNo": "7890452378",
+        "jobTitle": "Vitamin D & B 12",
+        "date": "Mon - 02 Mar",
+        "time": "09:00 am - 06:00 pm",
+        "nurseRequest": "-",
+        "action": "Fulfilled"
+      },
+      {
+        "bookingID": "18759",
+        "customerName": "Javier Sauer",
+        "customerType": "Patient",
+        "contactNo": "7890452378",
+        "jobTitle": "Physiotherapist",
+        "date": "Mon, Wed, Fri - 01 Mar to 30 Mar ",
+        "time": "10:00 pm - 06:00 am",
+        "nurseRequest": "-",
+        "action": "Fulfilled"
+      },
+      {
+        "bookingID": "16790",
+        "customerName": "Joel Schaden",
+        "customerType": "Home care",
+        "contactNo": "7890452378",
+        "jobTitle": "Critical care Nurse",
+        "date": "Mon - 02 Mar",
+        "time": "09:00 am - 06:00 pm",
+        "nurseRequest": "5",
+        "action": "On Hold"
+      },
+      {
+        "bookingID": "89059",
+        "customerName": "Joel Schaden",
+        "customerType": "Patient",
+        "contactNo": "7890452378",
+        "jobTitle": "Helping Nurse",
+        "date": "Mon - 02 Mar",
+        "time": "09:00 am - 06:00 pm",
+        "nurseRequest": "-",
+        "action": "Closed"
+      },
+      {
+        "bookingID": "10959",
+        "customerName": "Simon Deckow",
+        "customerType": "Corporate",
+        "contactNo": "68931 43256",
+        "jobTitle": "Basic Health Checkup",
+        "date": "Mon - 02 Mar",
+        "time": "09:00 am - 06:00 pm",
+        "nurseRequest": "8",
+        "action": "Closed"
+      }
+    ],
+    "aceptedJobs" : [
+      {
+        "jobtitle": "Yet to Assign",
+        "count": "135",
+        "labtitle": "Assigned",
+        "labcount": "97",
+        "overdue": "Ongoing",
+        "dueCount": "07",
+        "labdue": "Completed",
+        "labdueCount": "03"
+      }
+    ],
+    "requestDetails" : [
+      {
+        "bookingID": "Request ID - 17059",
+        "requestNurse": "17059 - Critical Care Nurse",
+        "customerName": "Troy Robel",
+        "age": "30 Yrs",
+        "gender": "Male",
+        "phoneNo": "+91 9876543210",
+        "customerEmail": "troyrobel@email.com",
+        "address": "No: 11, Museum Rd, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",
+        "jobTitle": "Critical care Nurse",
+        "date": "Mon, Wed, Fri - Mar 8 to Mar 25",
+        "tymings": "10 pm - 6 am / 8hrs",
+        "checkup":"Full Body Health Checkup Jan 2024.pdf",
+        "report": "Diabetes Test Report.pdf",
+        "test": "Blood Test.pdf",
+        "sugarLevel": "Sugar Level.pdf",
+        "glucoseLevel": "Glucose Level Test.pdf",
+        "bloodGroup": "B+",
+        "nationality": "Indian",
+        "maritalStatus": "Single",
+        "occupation": "Software Engineer",
+        "languages": "English, Hindi, French",
+        "attenderName": "Jasmine Koss",
+        "attenderNo": "+91 98765 43210",
+        "attenderEmail": "jasminekoss@gmail.com",
+        "relationshipWithPatient": "Wife"
+      }
+    ],
+    "descriptionDetails" : [
+      {
+        "physicalExams": "Conduct comprehensive physical exams and health assessments.",
+        "study": "Educate patients and families about health conditions, treatments, and medications.",
+        "guideline": "Follow protocols and guidelines to ensure patient safety.",
+        "controlDetails": "Adhere to infection control procedures.",
+        "nursingDetails": "Adhere to the nursing code of ethics and maintain patient confidentiality at all times.",
+        "environment": "Foster a collaborative and supportive work environment.",
+        "medicalDevice": "Ensure proper maintenance and calibration of medical devices.",
+        "support": "Use therapeutic communication techniques to support patients emotionally and psychologically.",
+        "records":"Full Body Health Checkup Jan 2024.pdf"
+      }
+    ],
+    "jobNurseRequest" : [
+      {
+        "nurseImg": "images/nurse1.svg",
+        "nurseName": "Kate Pearson - 500",
+        "jobTitle": "Critical Care",
+        "jobType": "Physiotherapist",
+        "role": "Helping Nurse",
+        "action": "Accept",
+        "status": "Reject"
+      },
+      {
+        "nurseImg": "/images/nurse2.svg",
+        "nurseName": "Percy Blanda - 250",
+        "jobType": "Physiotherapist",
+        "role": "Helping Nurse",
+        "action": "Accept",
+        "status": "Reject"
+      },
+      {
+        "nurseImg": "/images/nurse3.svg",
+        "nurseName": "Terri Bailey-1000",
+        "jobType": "Critical Care",
+        "role": "Helping Nurse",
+        "action": "Accept",
+        "status": "Reject"
+      },
+      {
+        "nurseImg": "/images/nurse4.svg",
+        "nurseName": "Janice Monahan",
+        "jobType": "Critical Care",
+        "role": "Physiotherapist",
+        "action": "Accept",
+        "status": "Reject"
+      }
+    ],
+    "jobSendRequest" : [
+      {
+        "nurseImg": "/images/nurse3.svg",
+        "nurseName": "Terri Bailey",
+        "jobType": "Critical Care",
+        "role": "Helping Nurse",
+        "status": "Cancel Request"
+      },
+      {
+        "nurseImg": "/images/nurse3.svg",
+        "nurseName": "Terri Bailey",
+        "jobType": "Critical Care",
+        "role": "Helping Nurse",
+        "status": "Send Request"
+      }
+    ],
+    "customerRequest" : [
+      {
+        "jobtitle": "Customer Requests",
+        "count": "135",
+        "labtitle": "Patient Requests",
+        "labcount": "97",
+        "overdue": "Corporate Requests",
+        "dueCount": "07",
+        "labdue": "Homecare Requests",
+        "labdueCount": "03"
+      }
+    ],
+    "customerRequests" : [
+      {
+        "customerName": "Troy Robel",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "troyrobel@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Loren Rogahn",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "loren@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Margarita Buckridge",
+        "serviceType": "Corporate",
+        "contactNo": "7890452378",
+        "email": "margarita@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Mithra Hospitals",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "mithra@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Dawn Jast",
+        "serviceType": "Home care",
+        "contactNo": "7890452378",
+        "email": "dawn@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Jason Fadel",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "JonathonWintheiser@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Phyllis Wintheiser",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "PhyllisBahringer@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Javier Sauer",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "javier@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Joel Schaden",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "joel@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Joel Schaden",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "joel@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "customerName": "Simon Deckow",
+        "serviceType": "Corporate",
+        "contactNo": "6893143256",
+        "email": "simon@gmail.com",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      }
+    ],
+    "customerDatabase" : [
+      {
+        "customerID": "17059",
+        "customerName": "Troy Robel",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "troyrobel@gmail.com",
+        "subscriptionPlan": "3 Months",
+        "validTill": " 25 Jul, 2024"
+      },
+      {
+        "customerID": "96780",
+        "customerName": "Loren Rogahn",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "loren@gmail.com",
+        "subscriptionPlan": "-",
+        "validTill": "-"
+      },
+      {
+        "customerID": "54566",
+        "customerName": "Margarita Buckridge",
+        "serviceType": "Corporate",
+        "contactNo": "7890452378",
+        "email": "margarita@gmail.com",
+        "subscriptionPlan": "6 Months",
+        "validTill": "26 Jul, 2024"
+      },
+      {
+        "customerID": "14569",
+        "customerName": "Mithra Hospitals",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "mithra@gmail.com",
+        "subscriptionPlan": "-",
+        "validTill": "-"
+      },
+      {
+        "customerID": "78059",
+        "customerName": "Dawn Jast",
+        "serviceType": "Home care",
+        "contactNo": "7890452378",
+        "email": "dawn@gmail.com",
+        "subscriptionPlan": "-",
+        "validTill": "-"
+      },
+      {
+        "customerID": "14059",
+        "customerName": "Jason Fadel",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "JonathonWintheiser@gmail.com",
+        "subscriptionPlan": "12 Months",
+        "validTill": "26 Jul, 2024"
+      },
+      {
+        "customerID": "18759",
+        "customerName": "Phyllis Wintheiser",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "PhyllisBahringer@gmail.com",
+        "subscriptionPlan": "-",
+        "validTill": "-"
+      },
+      {
+        "customerID": "78059",
+        "customerName": "Javier Sauer",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "javier@gmail.com",
+        "subscriptionPlan": "-",
+        "validTill": "-"
+      },
+      {
+        "customerID": "14569",
+        "customerName": "Joel Schaden",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "joel@gmail.com",
+        "subscriptionPlan": "6 Months",
+        "validTill": "25 Jul, 2024"
+      },
+      {
+        "customerID": "96780",
+        "customerName": "Joel Schaden",
+        "serviceType": "Patient",
+        "contactNo": "7890452378",
+        "email": "joel@gmail.com",
+        "subscriptionPlan": "-",
+        "validTill": "-"
+      },
+      {
+        "customerID": "14569",
+        "customerName": "Simon Deckow",
+        "serviceType": "Corporate",
+        "contactNo": "6893143256",
+        "email": "simon@gmail.com",
+        "subscriptionPlan": "-",
+        "validTill": "-"
+      }
+    ],
+    "nursingAssigned" : [
+      {
+        "bookingID": "17059",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Critical care Nurse",
+        "requestDate": "Mon - 02 Mar",
+        "nurseAssigned": "Troy Robel",
+        "amount": "-",
+        "status": "Yet to Assign"
+      },
+      {
+        "bookingID": "96780",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Helping Nurse",
+        "requestDate": "Wed - 04 Mar",
+        "nurseAssigned": "Loren Rogahn",
+        "amount": "₹ 1,849.00",
+        "status": "Assigned"
+      },
+      {
+        "bookingID": "54566",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Vitamin D & B 12",
+        "requestDate": "Mon, Wed, Fri - 01 Mar to 30 Mar",
+        "nurseAssigned": "Margarita Buckridge",
+        "amount": "₹ 1,849.00",
+        "status": "Ongoing"
+      },
+      {
+        "bookingID": "14569",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Registered Nurse",
+        "requestDate": "Thu - 12 Mar",
+        "nurseAssigned": "Mithra Hospitals",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      },
+      {
+        "bookingID": "78059",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Critical care Nurse",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "nurseAssigned": "Dawn Jast",
+        "amount": "₹ 1,849.00",      
+        "status": "Completed"
+      },
+      {
+        "bookingID": "14059",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Cancer Screening",
+        "requestDate": "Mon - 02 Mar",
+        "nurseAssigned": "Jason Fadel",
+        "amount": "₹ 1,849.00",       
+        "status": "Completed"
+      },
+      {
+        "bookingID": "17679",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Vitamin D & B 12",
+        "requestDate": "Wed - 04 Mar",
+        "nurseAssigned": "Phyllis Wintheiser",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      },
+      {
+        "bookingID": "18759",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Physiotherapist",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "nurseAssigned": "Javier Sauer",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      },
+      {
+        "bookingID": "16790",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Critical care Nurse",
+        "requestDate": "Thu - 12 Mar",
+        "nurseAssigned": "Joel Schaden",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      },
+      {
+        "bookingID": "89059",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Helping Nurse",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "nurseAssigned": "Joel Schaden",
+        "amount": "₹ 1,849.00",
+        "status": "Rejected"
+      },
+      {
+        "bookingID": "10959",
+        "requestedDate": "25 Jul, 2024",
+        "jobTitle": "Basic Health Checkup",
+        "requestDate": "Sat, Sun - 01 Feb to 28 Feb",
+        "nurseAssigned": "Simon Deckow",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      }
+    ],
+    "labTest" : [
+      {
+        "bookingID": "17059",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Vitamin D & B 12",
+        "testDate": "25 Jul, 2024",
+        "assignedLab": "Troy Robel",
+        "amount": "₹ 1,849.00",
+        "status": "Assigned"
+      },
+      {
+        "bookingID": "96780",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Cancer Screening",
+        "testDate": "26 Jul, 2024",
+        "assignedLab": "Mithra labs",
+        "amount": "₹ 1,849.00",
+        "status": "Assigned"
+      },
+      {
+        "bookingID": "54566",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Cancer Screening",
+        "testDate": "26 Jul, 2024",
+        "assignedLab": "Trinity Labs",
+        "amount": "₹ 1,849.00",
+        "status": "Ongoing"
+      },
+      {
+        "bookingID": "14569",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Basic Health Checkup",
+        "testDate": "26 Jul, 2024",
+        "assignedLab": "Mithra labs",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      },
+      {
+        "bookingID": "78059",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Cancer Screening",
+        "testDate": "26 Jul, 2024",
+        "assignedLab": "Mithra labs",
+        "amount": "₹ 1,849.00",      
+        "status": "Completed"
+      },
+      {
+        "bookingID": "14059",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Basic Health Checkup",
+        "testDate": "26 Jul, 2024",
+        "assignedLab": "Mithra labs",
+        "amount": "₹ 1,849.00",       
+        "status": "Completed"
+      },
+      {
+        "bookingID": "17679",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Vitamin D & B 12",
+        "testDate": "26 Jul, 2024",
+        "assignedLab": "Trinity Labs",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      },
+      {
+        "bookingID": "18759",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Cancer Screening",
+        "testDate": "26 Jul, 2024",
+        "assignedLab": "Mithra labs",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      },
+      {
+        "bookingID": "16790",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Cancer Screening",
+        "testDate": "25 Jul, 2024",
+        "assignedLab": "Mithra labs",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      },
+      {
+        "bookingID": "89059",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Vitamin D & B 12",
+        "testDate": "25 Jul, 2024",
+        "assignedLab": "Trinity Labs",
+        "amount": "₹ 1,849.00",
+        "status": "Rejected"
+      },
+      {
+        "bookingID": "10959",
+        "requestedDate": "25 Jul, 2024",
+        "testTitle": "Basic Health Checkup",
+        "testDate": "25 Jul, 2024",
+        "assignedLab": "Mithra labs",
+        "amount": "₹ 1,849.00",
+        "status": "Completed"
+      }
+    ],
+    "onboardingRequest" : [
+      {
+        "jobtitle": "Total Requests",
+        "count": "135",
+        "labtitle": "Full Time",
+        "labcount": "97",
+        "overdue": "Part Time",
+        "dueCount": "07",
+        "labdue": "Contract",
+        "labdueCount": "03"
+      }
+    ],
+    "onboardingRequests" : [
+      {
+        "name": "Jason Fadel",
+        "contactNo": "7890452378",
+        "email": "jason@gmail.com",
+        "workType": "Full time",
+        "experience": "5 Yrs",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Joel Schaden",
+        "contactNo": "7890452378",
+        "email": "joel@gmail.com",
+        "workType": "Full time",
+        "experience": "5 Yrs",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Nina Wuckert",
+        "contactNo": "68931 43256",
+        "email": "nina@gmail.com",
+        "workType": "Contract",
+        "experience": "Fresher",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Javier Sauer",
+        "contactNo": "7890452378",
+        "email": "javier@gmail.com",
+        "workType": "Full time",
+        "experience": "5 Yrs",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Joel Schaden",
+        "contactNo": "7890452378",
+        "email": "joel@gmail.com",
+        "workType": "Full time",
+        "experience": "5 Yrs",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Jason Fadel",
+        "contactNo": "7890452378",
+        "email": "jason@gmail.com",
+        "workType": "Full time",
+        "experience": "5 Yrs",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Phyllis Wintheiser",
+        "contactNo": "7890452378",
+        "email": "PhyllisBahringer@gmail.com",
+        "workType": "Full time",
+        "experience": "5 Yrs",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Javier Sauer",
+        "contactNo": "7890452378",
+        "email": "javier@gmail.com",
+        "workType": "Full time",
+        "experience": "5 Yrs",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Joel Schaden",
+        "contactNo": "7890452378",
+        "email": "joel@gmail.com",
+        "workType": "Full time",
+        "experience": "5 Yrs",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Joel Schaden",
+        "contactNo": "7890452378",
+        "email": "joel@gmail.com",
+        "workType": "Full time",
+        "experience": "5 Yrs",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      },
+      {
+        "name": "Nina Wuckert",
+        "contactNo": "68931 43256",
+        "email": "nina@gmail.com",
+        "workType": "Contract",
+        "experience": "Fresher",
+        "requestedDate": "25 Jul, 2024",
+        "action": "Reject",
+        "status": "Accept",
+        "rejectedStatus": "Cancel"
+      }
+    ]
+  }
