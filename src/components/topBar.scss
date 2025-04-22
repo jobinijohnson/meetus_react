@@ -49,5 +49,72 @@
         margin-right: 62px;
         color: #17177B;
     }
+
+
+  }
+  .sidebar {
+    height: 100vh;
+    position: relative;
+  }
+  
+  .user-upgrade-card {
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  
+    .user-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin: 0 auto 12px auto;
+      object-fit: cover;
+    }
+  
+    .user-info {
+      margin-bottom: 12px;
+  
+      .user-name {
+        font-size: 15px;
+        color: #1a202c;
+        margin-bottom: 4px;
+  
+        .bold {
+          font-weight: 600;
+        }
+  
+        .badge {
+          font-size: 10px;
+          font-weight: 600;
+          color: #4f5d75;
+          background-color: #edf2f7;
+          border-radius: 8px;
+          padding: 2px 6px;
+          margin-left: 8px;
+          vertical-align: middle;
+        }
+      }
+  
+      .user-handle {
+        font-size: 12px;
+        color: #718096;
+      }
+    }
+  
+    .upgrade-btn {
+      background-color: #142d6f;
+      color: white;
+      border: none;
+      border-radius: 24px;
+      padding: 8px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+  
+      &:hover {
+        background-color: #101c49;
+      }
+    }
   }
   

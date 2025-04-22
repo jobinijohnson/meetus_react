@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-
 import '../App.css';
-import { Outlet, useNavigate } from 'react-router-dom';
+import './topBar.scss';
+import { Outlet, useNavigate, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import iconExport from './iconExport';
-import { Link } from 'react-router-dom';
 
 function App() {
   const navigate = useNavigate();
@@ -78,13 +77,13 @@ function App() {
   }
 
   return (
-    <div className="flex flex-grow flex-col">
-      <div className="mt-5 flex flex-grow flex-col">
+    <div className="flex flex-col h-screen">
+      <div className="mt-5 flex flex-col flex-grow">
         <nav className="flex-1 space-y-1" aria-label="Sidebar">
           {navigation.map((item, index) => {
             if (item.type === 'section') {
               return (
-                <div key={`section-${index}`} className="text-xs font-normal uppercase" style={{fontSize: '14px', paddingLeft: '18px', paddingTop:'18px', paddingBottom: '6px', color: '#7281AA'}}>
+                <div key={`section-${index}`} className="text-xs font-normal uppercase" style={{ fontSize: '14px', paddingLeft: '18px', paddingTop: '18px', paddingBottom: '6px', color: '#7281AA' }}>
                   {item.name}
                 </div>
               );
@@ -139,7 +138,25 @@ function App() {
             );
           })}
         </nav>
+
+        {/* USER UPGRADE CARD */}
+        {/* <div className="user-upgrade-card">
+          <img
+            src="https://i.pravatar.cc/300"
+            alt="User"
+            className="user-avatar"
+          />
+          <div className="user-info">
+            <div className="user-name">
+              Hi, <span className="bold">Jessica</span>
+              <span className="badge">STARTER</span>
+            </div>
+            <div className="user-handle">@jessica</div>
+          </div>
+          <button className="upgrade-btn">Upgrade now</button>
+        </div> */}
       </div>
+
       <div className={`rightSide bg-white ${isOpen ? 'w-[100%] pl-[250px]' : 'w-[100%] pl-[100px]'}`}>
         <Outlet context={[isOpen]} />
       </div>

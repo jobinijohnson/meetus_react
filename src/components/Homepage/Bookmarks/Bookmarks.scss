@@ -1,0 +1,65 @@
+.bookmarks-section {
+    padding: 13px;
+    background-color: #8484FE;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    .display-content {
+      display: flex;
+      align-items: center;
+      padding-bottom: 15px;
+      .content-section {
+        padding-left: 10px;
+        .name-content {
+            font-family: 'Monasans';
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 14px;
+            padding-top: 3px;
+            padding-bottom: 7px;
+            color: #ffffff;
+        }
+        .desc-content {
+            font-family: 'Inter';
+            font-size: 12px;
+            font-weight: normal;
+            line-height: 14px;
+            color: #ffffff;
+        }
+      }
+    }
+    .quote-content {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-style: italic;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    .quote-section {
+      display: flex;
+      gap: 10px;
+      .quote-icon {
+        font-size: 60px;
+        color: #ffffff;
+        padding-top: 10px;
+      }
+      .quotecomma-content{
+        font-family: 'Inter';
+        font-size: 17px;
+        font-style: italic;
+        line-height: 23px;
+        padding-left: 6px;
+        color: #ffffff;
+      }
+    }
+    .read-more {
+      font-family: 'Inter';
+      font-size: 14px;
+      font-weight: normal;
+      text-decoration: underline;
+      display: inline-block;
+      cursor: pointer;
+      padding-left: 78px;
+      color: #ffffff;
+    }
+  }
+  

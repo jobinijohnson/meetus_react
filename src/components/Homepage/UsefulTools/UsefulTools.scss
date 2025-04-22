@@ -1,0 +1,60 @@
+.usefulTools-section {
+    margin-top: 18px;
+    padding: 22px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  
+    .useful-content {
+      font-family: 'Monasans-bold';
+      font-size: 18px;
+      font-weight: bold;
+      color: #142D6F;
+      margin-bottom: 10px;
+    }
+  
+    .divider {
+      border: none;
+      border-top: 1px solid #e0e0e0;
+      margin-bottom: 16px;
+    }
+  
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 17px;
+    }
+    .tool-card {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        padding: 9px;
+        text-align: center;
+        transition: 0.3s ease;
+        border: 1px solid #f1f1f1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+        &:hover {
+          background-color: #f0f4ff;
+        }
+      
+        .tool-icon {
+          width: 30px;
+          height: 30px;
+          margin-bottom: 12px;
+          object-fit: contain;
+          display: block;
+          filter: invert(15%) sepia(57%) saturate(1267%) hue-rotate(189deg) brightness(94%) contrast(96%);
+        }
+      
+        .tool-title {
+          font-family: 'Inter';
+          font-size: 11px;
+          color: #142D6F;
+        }
+      }
+      
+  }
+  

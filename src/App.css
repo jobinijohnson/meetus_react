@@ -32,8 +32,8 @@
   height: 100vh;
   padding-top: 30px;
   padding-bottom: 90px;
-  padding-right: 28px;
-  background-color: #f9f9f9;
+  padding-right: 54px;
+  background-color: #EDEEF3;;
   overflow: scroll;
 }
 .rightSide::-webkit-scrollbar {

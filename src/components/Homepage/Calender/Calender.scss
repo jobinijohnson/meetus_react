@@ -1,0 +1,89 @@
+.calendar-section {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f5f9;
+    .calendar-image {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 12px 12px 0 0;
+        margin-bottom: 0;
+    }
+    .calendar-container {
+        background: white;
+        border-radius: 0 0 12px 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        padding: 16px;
+        max-width: 400px;
+        width: 100%;
+    }
+    .calendar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        .date-content {
+            font-family: 'Monasans-bold';
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+            color: #142D6F;
+        }
+        .nav-arrow {
+            width: 36px;
+            font-size: 16px;
+            color: #333;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+            svg {
+                font-size: 14px;
+                filter: invert(15%) sepia(57%) saturate(1267%) hue-rotate(189deg) brightness(94%) contrast(96%);
+            }
+            &:hover {
+                background-color: #d3d7e0;
+            }
+        }
+    }
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 2px;
+        margin-top: 10px;
+        .calendar-day {
+            font-family: "Monasans-bold";
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            color: #142D6F;
+        }
+        .calendar-date {
+            height: 36px;
+            width: 36px;
+            text-align: center;
+            line-height: 36px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+            color: #142D6F;
+            &.selected {
+                background-color: #3f51b5;
+                color: white;
+            }
+            &.past-date {
+                color: #A1ABC6;
+            }
+            &:hover:not(.empty) {
+                background-color: #dee3ff;
+            }
+            &.empty {
+                cursor: default;
+                background: transparent;
+            }
+        }
+    }
+} 

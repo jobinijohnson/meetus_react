@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
-import { API_URL } from '../../../config/api.js';  // Ensure this is set correctly
+import { API_URL } from '../../../config/api.js'; 
 import './BusinessSlider.scss';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -12,7 +12,7 @@ function BusinessSlider() {
     fetch(`${API_URL}/api/businesses?populate=*`)
       .then((res) => res.json())
       .then((data) => {
-        console.log("Fetched business data:", data); // Log the entire fetched data
+        console.log("Fetched business data:", data); 
         setBusiness(data.data);
       })
       .catch((err) => console.error("Failed to fetch businesses", err));

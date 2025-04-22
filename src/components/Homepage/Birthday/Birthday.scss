@@ -1,0 +1,128 @@
+.birthday-section {
+    .bday-section {
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 12px 12px 0 0;
+      background-color: #4D4EFE;
+      text-align: center;
+      .birthday-imgsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .bday-imgcontent {
+        margin-top: 10px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+      }
+      .title-content {
+        font-family: "Inter";
+        font-size: 18px;
+        font-weight: normal;
+        padding-top: 6px;
+        padding-bottom: 8px;
+        color: #ffffff;
+  
+        .bold-name {
+          font-family: "Monasans-bold";
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+      .desc-content {
+        font-family: "Inter";
+        font-size: 12px;
+        padding-bottom: 20px;
+        color: #ffffff;
+      }
+      .greet-btn {
+        background-color: #142D6F;
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 30px;
+        font-family: "Monasans-bold";
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: -28px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+  
+        &:hover {
+          background-color: #0f2254;
+        }
+      }
+    }
+    .bdaysection-content {
+      padding: 25px 15px 15px 15px;
+      border-radius: 0 0 8px 8px;
+      background-color: #ffffff;
+  
+      .section-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 15px;
+        .header-title {
+          font-family: "Monasans-bold";
+          font-size: 15px;
+          font-weight: bold;
+          color: #142D6F;
+        }
+        .view-all {
+            font-family: "Inter";
+            font-size: 14px;
+            font-weight: normal;
+            color: #648BF0;
+            cursor: pointer;
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+  
+      .birthday-list {
+        display: flex;
+        gap: 13px;
+        padding-top: 13px;
+      }
+  
+      .display-content {
+        display: flex;
+        align-items: center;
+      }
+  
+      .bdaysec-imgcontent {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+  
+      .bdaycontent-section {
+        margin-left: 10px;
+  
+        .name-content {
+          font-family: "Monasans-bold";
+          font-size: 13px;
+          font-weight: bold;
+          line-height: 15px;
+          padding-top: 6px;
+          padding-bottom: 2px;
+          color: #142D6F;
+        }
+  
+        .desc-content {
+          font-family: "Inter";
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 15px;
+          color: #142D6F;
+        }
+      }
+    }
+  }
+  
