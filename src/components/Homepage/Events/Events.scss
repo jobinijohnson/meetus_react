@@ -1,0 +1,101 @@
+.events-section {
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    .events-content {
+      font-family: "Monasans-bold";
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 20px;
+      padding-bottom: 15px;
+      color: #142D6F;
+    }
+    .members-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      .members-tabs {
+        display: flex;
+        gap: 8px;
+        .tab-button {
+          font-family: "Monasans-bold";
+          padding: 6px 14px;
+          font-size: 14px;
+          border-radius: 8px;
+          background-color: #f0f2ff;
+          color: #142D6F;
+          cursor: pointer;
+          transition: 0.3s;
+          border: 1px solid #DDDEF0;
+          &.active {
+            background-color: #648BF0;
+            color: white;
+            font-weight: 600;
+          }
+          &:hover {
+            background-color: #dce0ff;
+          }
+        }
+      }
+    }
+    .events-list {
+      display: flex;
+      flex-direction: column;
+      .event-card {
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #efefef;
+        .event-avatar {
+          width: 50px;
+          border-radius: 8px;
+          object-fit: cover;
+        }
+        .event-info {
+          .event-name {
+            font-family: "Monasans-bold";
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 14px;
+            padding-top: 4px;
+            padding-bottom: 8px;
+            color: #142D6F;
+          }
+          .event-status {
+            font-family: "Inter";
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 14px;
+            padding-bottom: 8px;
+            color: #142D6F;
+          }
+          .event-amount{
+            font-family: "Monasans-bold";
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 14px;
+            padding-bottom: 6px;
+            color: #142D6F;
+          }
+        }
+      }
+    }
+    .view-all {
+        font-family: "Inter";
+        font-size: 12px;
+        font-weight: normal;
+        padding-top: 15px;
+        color: #648BF0;
+        cursor: pointer;
+        span {
+          font-size: 14px;
+        }
+    }
+}
+  

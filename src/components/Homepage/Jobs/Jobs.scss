@@ -1,0 +1,80 @@
+.jobs-section{
+    margin-top: 16px;
+    font-family: "Inter";
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    .jobs-content{
+        font-family: "Monasans-bold";
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 20px;
+        padding-left: 15px;
+        padding-top: 23px;
+        padding-bottom: 15px;
+        color: #142D6F;
+    }
+    .main-news-content{
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .title-content{
+        font-family: "Monasans-bold";
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 14px;
+        padding-top: 4px;
+        padding-bottom: 8px;
+        color: #142D6F;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%; 
+        display: block;
+    }
+    .company-title{
+        font-family: "Inter";
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 14px;
+        padding-bottom: 8px;
+        color: #142D6F;
+    }
+    .first-section{
+        width: 40%;
+    }
+    .location-content{
+        width: 30%;
+        font-family: "Inter";
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 14px;
+        text-align: center;
+        padding-bottom: 8px;
+        color: #142D6F;
+    }
+    .last-section{
+        width: 30%;
+    }
+    .type-content{
+        font-family: "Monasans-bold";
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 14px;
+        text-align: right;
+        padding-top: 4px;
+        padding-bottom: 8px;
+        color: #142D6F;
+    }
+    .date-content{
+        font-family: "Inter";
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 14px;
+        text-align: right;
+        padding-bottom: 8px;
+        color: #142D6F;
+    }
+}

@@ -1,0 +1,55 @@
+.achievements-section {
+    margin-top: 15px;
+    display: flex;
+    gap: 9px;
+    justify-content: center; 
+    .achievement-card {
+        border-radius: 9px;
+        padding: 11px;
+        width: 120px;
+        text-align: center;
+    }
+    .achievement-card.members {
+        background-color: #4D4EFE;
+        color: white;
+    }
+    .achievement-card.awards {
+        background-color: #8484FE;
+        color: white;
+    }
+    .achievement-card.forums {
+        background-color: white;
+        color: #1d1d1d;
+        border: 1px solid #e0e0e0;
+        .achievement-icon {
+            filter: invert(15%) sepia(57%) saturate(1267%) hue-rotate(189deg) brightness(94%) contrast(96%);
+        }
+    }
+    .achievement-icon {
+        font-size: 24px;
+        margin-top: 7px;
+        margin-bottom: 12px;
+    }
+    .achievement-count {
+        font-family: "Monasans-bold";
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 14px;
+        padding-top: 6px;
+        padding-bottom: 15px;
+    }
+    .achievement-title {
+        font-family: 'Monasans';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 14px;
+        margin-top: 4px;
+        margin-bottom: 5px;
+    }
+    .achievement-card.forums .achievement-count{
+        color: #142D6F;
+    }
+    .achievement-card.forums .achievement-title{
+        color: #142D6F;
+    }
+} 

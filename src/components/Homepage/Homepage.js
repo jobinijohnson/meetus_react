@@ -8,6 +8,11 @@ import Birthday from "./Birthday/Birthday";
 import CalenderSection from "./Calender/Calender";
 import Awards from "./Awards/Awards";
 import News from "./News/News";
+import Achievements from "./Achievements/Achievements";
+import Members from "./Members/Members";
+import Poll from "./Poll/Poll";
+import Events from "./Events/Events";
+import Jobs from "./Jobs/Jobs";
 
 function PostedJobs() {
 
@@ -18,15 +23,20 @@ function PostedJobs() {
           <BusinessSlider />
           <Birthday />
           <News />
+          <Jobs />
         </div>
         <div className="secondsection">
           <Notification />
           <UsefulTools />
           <CalenderSection />
+          <Achievements />
+          <Poll />
         </div>
         <div className="thirdsection">
           <Bookmarks />
           <Awards />
+          <Members />
+          <Events />
         </div>
       </div>
     </div>

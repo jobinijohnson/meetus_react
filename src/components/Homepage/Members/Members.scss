@@ -1,0 +1,78 @@
+.members-section {
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    .members-content {
+      font-family: "Monasans-bold";
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 20px;
+      padding-bottom: 10px;
+      color: #142D6F;
+    }
+    .members-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      .members-tabs {
+        display: flex;
+        gap: 8px;
+        .tab-button {
+          font-family: "Monasans-bold";
+          padding: 6px 14px;
+          font-size: 14px;
+          border-radius: 8px;
+          background-color: #f0f2ff;
+          color: #142D6F;
+          cursor: pointer;
+          transition: 0.3s;
+          border: 1px solid #DDDEF0;
+          &.active {
+            background-color: #648BF0;
+            color: white;
+            font-weight: 600;
+          }
+          &:hover {
+            background-color: #dce0ff;
+          }
+        }
+      }
+    }
+    .members-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      .member-card {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .member-avatar {
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+        }
+        .member-info {
+          .member-name {
+            font-family: "Monasans-bold";
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 14px;
+            padding-bottom: 6px;
+            color: #142D6F;
+          }
+          .member-status {
+            font-family: "Inter";
+            font-size: 12px;
+            font-weight: normal;
+            line-height: 14px;
+            color: #142D6F;
+          }
+        }
+      }
+    }
+}
+  

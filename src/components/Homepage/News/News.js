@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { API_URL } from "../../../config/api.js";
 import "./News.scss";
-import NewsUpdate from "../../../assets/newsUpdate.png";
 
 function News() {
   const [newsUpdates, setNewsUpdates] = useState([]);
@@ -40,14 +39,19 @@ function News() {
       </div>
       <div className="newsfeed-section">
         <div className="newsfirst-section">
-          <div className="main-image">
-            <img src={NewsUpdate} alt="newsUpdate" />
-          </div>
           {newsUpdates.map((item) => (
-            <div className="main-news-content" key={item.id}>
-              <div className="read-time">• {item.readTime}</div>
-              <div className="title">{item.title}</div>
-              <div className="description">{item.description}</div>
+            <div key={item.id}>
+              <div className="main-image">
+                <img
+                  src={`${API_URL}${item.image?.url}`}
+                  alt={item.image?.alternativeText || "News Update"}
+                />
+              </div>
+              <div className="main-news-content">
+                <div className="read-time">• {item.readTime}</div>
+                <div className="title">{item.title}</div>
+                <div className="description">{item.description}</div>
+              </div>
             </div>
           ))}
         </div>
